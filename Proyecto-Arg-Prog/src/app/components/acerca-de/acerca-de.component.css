@@ -1,0 +1,45 @@
+.row {
+    padding: 15px;
+    text-align: center;
+}
+
+div {
+    background-color: grey;
+}
+
+@media (min-width:576px) {
+    #fotoperfil {
+        position: absolute;
+        width: 13%;
+        border-radius: 100%;
+        box-shadow: 3px 3px 3px rgb(22, 22, 105);
+        left: 3%;
+        top: 625px;
+    }
+}
+
+@media (max-width:576px) {
+    #fotoperfil {
+        position: absolute;
+        width: 30%;
+        border-radius: 100%;
+        box-shadow: 3px 3px 3px rgb(22, 22, 105);
+        left: 37%;
+        top: 500px;
+    }
+
+}
+
+#nombre {
+    font-weight: bold;
+    margin-top: 10%;
+}
+
+#titulo {
+    text-decoration: underline;
+}
+
+#acerca {
+    font-weight: bold;
+    margin-top: 1%;
+}
