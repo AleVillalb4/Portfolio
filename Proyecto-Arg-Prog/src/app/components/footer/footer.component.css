@@ -1,0 +1,13 @@
+.row {
+    background: gray;
+}
+
+p {}
+
+footer {
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 14px;
+}
